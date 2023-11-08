@@ -1,0 +1,1 @@
+{"name":"Local: GPA","url":"/Users/p-mac/Documents/chula prog/Midterm/GPA.cpp","tests":[{"id":1693967323251,"input":"3\nC 4\nA 1\nB+ 3","output":"2.81"},{"id":1693967333761,"input":"3\nA 1\nA 2\nA 3","output":"4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/p-mac/Documents/chula prog/Midterm/GPA.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: 06_Vector_32","url":"/Users/p-mac/Documents/chula prog/vector/06_Vector_32.cpp","tests":[{"id":1694576778858,"input":"first\n50 90 10 80 50 20","output":"90\n80\n10 20 50\n50"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/p-mac/Documents/chula prog/vector/06_Vector_32.cpp","group":"local","local":true}
