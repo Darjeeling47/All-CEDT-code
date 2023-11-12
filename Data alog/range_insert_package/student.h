@@ -21,7 +21,7 @@ void CP::vector<T>::insert(iterator position,iterator first,iterator last) {
   for(size_t i = size; i >= pos2; i--) {
     mData[i] = mData[i - v_size];
   }
-  // std::cout << "123" << std::endl;
+  // std::cout << "---" << std::endl;
   // std::cout << pos2 << std::endl;
   // std::cout << pos << std::endl;
   for(int i = pos2 - 1; i >= pos; i--) {
