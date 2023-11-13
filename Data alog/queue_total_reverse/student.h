@@ -9,7 +9,7 @@ bool rev = false;
 template <typename T>
 void CP::queue<T>::reverse() {
   if(!rev) mFront = (mFront + mSize - 1) % mCap;
-  else mFront = (mFront - mSize + 1) % mCap;
+  else mFront = (mFront - mSize + 1 + mCap) % mCap;
   rev = !rev;
 }
 
@@ -20,7 +20,7 @@ const T& CP::queue<T>::front() const {
 
 template <typename T>
 const T& CP::queue<T>::back() const {
-  if(rev) return mData[(mFront - mSize + 1) % mCap];
+  if(rev) return mData[(mFront - mSize + 1 + mCap) % mCap];
   else return mData[(mFront + mSize - 1) % mCap];
 }
 
@@ -34,7 +34,7 @@ void CP::queue<T>::push(const T& element) {
     reverse();
   }
   
-  if(rev) mData[(mFront - mSize) % mCap] = element;
+  if(rev) mData[(mFront - mSize + mCap) % mCap] = element;
   else mData[(mFront + mSize) % mCap] = element;
   
   mSize++;

@@ -1,0 +1,1 @@
+{"name":"Local: main","url":"/Users/p-mac/Documents/chula/All-CEDT-code/Data alog/package_queue_reverse/main.cpp","tests":[{"id":1699852456359,"input":"5 1 4\n1 2 3 4 5","output":"1 5 4 3 2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/p-mac/Documents/chula/All-CEDT-code/Data alog/package_queue_reverse/main.cpp","group":"local","local":true}

@@ -3,7 +3,7 @@
 #include <iostream>
 
 int main() {
-  CP::queue<int> q, r;
+  CP::queue<int> q;
   int n;
   std::cin >> n;
   for (int i = 0; i < n; ++i) {
