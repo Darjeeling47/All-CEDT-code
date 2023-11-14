@@ -16,7 +16,7 @@ T CP::priority_queue<T,Comp>::get_kth(size_t k) const {
   }
 
   std::sort(a, a + i, mLess);
-  return a[k - 1];
+  return a[i - k];
 }
 
 #endif
