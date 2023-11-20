@@ -10,13 +10,14 @@ void shift(int k) {
 
 	node *tmp = mHeader -> next;
 
-	if(k > 0)
+	if(k > 0){
 		k = k % mSize;
 		for(int i = 0; i < k; i++){
 			if(tmp == mHeader)
 				tmp = tmp -> next;
 			tmp = tmp -> next;
 		}
+	}
 	else 
 		for(int i = 0; i > k ; i--){
 			if(tmp == mHeader)
