@@ -1,0 +1,15 @@
+{
+  "files.associations": {
+    "ostream": "cpp",
+    "vector": "cpp",
+    "ios": "cpp",
+    "iostream": "cpp",
+    "valarray": "cpp",
+    "set": "cpp",
+    "__split_buffer": "cpp",
+    "deque": "cpp",
+    "list": "cpp",
+    "string": "cpp",
+    "iosfwd": "cpp"
+  }
+}
