@@ -5,10 +5,6 @@ int cnt = 0;
 
 void find_n(int n, vector<int> &sol, int sum){
   if(sum == n){
-    // for(auto &e : sol){
-    //   cout << e << " ";
-    // }
-    // cout << endl;
     cnt++;
   }
   else if(sol.size() < n){
@@ -17,17 +13,13 @@ void find_n(int n, vector<int> &sol, int sum){
     if(sol.size() > 0 ) start = sol[sol.size() - 1];
     
     for(int i = start; i <= n; i++){
-      // cout << "sum : " << sum << endl << "value : ";
-      // for(auto &e : sol){
-      //   cout << e << " ";
-      // }
-      // cout << endl;
       if(sum + i <= n){
         sol.push_back(i);
         find_n(n, sol, sum + i);
         sol.erase(sol.end() - 1);
       }
-      else continue;
+      else 
+        continue;
     }
   }
   else{
